@@ -1,0 +1,10 @@
+pypdf
+langchain-community
+langchain-openai
+chromadb
+langchain-text-splitters
+langchain-classic
+python-dotenv
+fastapi
+uvicorn
+beautifulsoup4

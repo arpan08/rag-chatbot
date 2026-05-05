@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.local
+.env.development
+.env.production
+
+# Frontend
+rag-chatbot-frontend/node_modules/
+rag-chatbot-frontend/.next/
+rag-chatbot-frontend/out/
+rag-chatbot-frontend/dist/
+
+# Backend
+rag-chatbot-backend/venv/
+rag-chatbot-backend/.venv/
+rag-chatbot-backend/__pycache__/
+rag-chatbot-backend/*.pyc
+
+# Private docs
+rag-chatbot-backend/docs/*
+!rag-chatbot-backend/docs/.gitkeep
+
+# Vector DB
+rag-chatbot-backend/chroma/
+rag-chatbot-backend/chroma_db/
+rag-chatbot-backend/.vectorstore/
+
+# IDE
+.vscode/
+.idea/
